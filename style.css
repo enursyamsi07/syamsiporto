@@ -319,14 +319,20 @@ button {
   max-width: 200px;
   margin: 0;
 }
+
 .project-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 128px;
 }
+
 .project {
   width: 88%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .project:nth-child(3) {
   width: 74%;
   margin-left: auto;
